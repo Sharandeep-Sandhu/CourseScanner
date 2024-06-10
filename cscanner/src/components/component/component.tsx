@@ -73,6 +73,7 @@ const Component: React.FC = () => {
             <h1 className="text-3xl md:text-6xl font-bold mb-4" style={{ textAlign: "center" }}>Find the Best Courses Price</h1>
             <p className="text-lg md:text-xl text-white-600 mb-8" style={{ textAlign: "center" }}>Compare course prices across multiple websites and find the best deal.</p>
 
+
             <div className="text-white" style={{ padding: "6rem" }}>
               <div className="mt-4 flex flex-col md:flex-row bg-white justify-between p-2 text-black rounded space-y-4 md:space-y-0">
                 <div className="flex flex-col w-full md:w-auto">
