@@ -10,6 +10,15 @@ import { MenuIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
+interface BrandName {
+  brandname: string;
+}
+
+interface Course {
+  id: number;
+  name: string;
+}
+
 const Component: React.FC = () => {
   const [brandNames, setBrandNames] = useState<string[]>([]);
   const [selectedBrandName, setSelectedBrandName] = useState<string>('');
